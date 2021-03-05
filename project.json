@@ -6,19 +6,27 @@
 	{
 		"localization" : 
 		{
-			"en-us" : { },
-			"ja-jp" : { },
-			"zh-chs" : { }
+			"en-us" : {},
+			"ja-jp" : {},
+			"zh-chs" : {}
 		},
 		"properties" : 
 		{
-			
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0 0 0"
+			}
 		}
 	},
-	"preview" : "wp04_2.jpg",
+	"preview" : "preview.jpg",
 	"tags" : [ "Anime" ],
 	"title" : "魔法科高校の劣等生 戦慄の来訪者編",
 	"type" : "web",
-	"version" : 19,
-	"visibility" : "public"
+	"version" : 20,
+	"visibility" : "public",
+	"workshopid" : "2415016068",
+	"workshopurl" : "steam://url/CommunityFilePage/2415016068"
 }
