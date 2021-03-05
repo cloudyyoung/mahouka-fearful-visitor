@@ -1,0 +1,24 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "魔法科高校の劣等生 戦慄の来訪者編 (The irregular at magic high school: The fearful visitor)",
+	"file" : "index.html",
+	"general" : 
+	{
+		"localization" : 
+		{
+			"en-us" : { },
+			"ja-jp" : { },
+			"zh-chs" : { }
+		},
+		"properties" : 
+		{
+			
+		}
+	},
+	"preview" : "wp04_2.jpg",
+	"tags" : [ "Anime" ],
+	"title" : "魔法科高校の劣等生 戦慄の来訪者編",
+	"type" : "web",
+	"version" : 19,
+	"visibility" : "public"
+}
