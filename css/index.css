@@ -20,7 +20,7 @@ body {
 .bg-main {
   position: absolute;
   width: 100%;
-  height: 81%;
+  height: 79%;
   background: url(../img/bg_main.jpg) no-repeat center top;
   background-size: cover;
   z-index: -299;
@@ -28,26 +28,31 @@ body {
   left: 0;
 }
 
-.chara {
-  position: absolute;
+.main {
+  padding-top: 12vh;
+  left: 0;
   width: 100%;
+  height: 100%;
+}
+
+.main * {
+  margin-bottom: 3vh;
+}
+
+.main .chara {
   height: 60%;
   background: url(../img/img_chara_large.png) no-repeat center;
   background-size: contain;
-  bottom: 7%;
 }
 
-.logo {
-  position: absolute;
-  width: 100%;
-  height: 16%;
+.main .logo {
+  height: 12%;
   background: url(../img/logo.png) no-repeat center;
   background-size: contain;
-  top: 12%;
 }
 
 .flowers {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -79,7 +84,7 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
-  .chara {
+  .main .chara {
     background-image: url(../img/img_chara_sp_large.png);
   }
 }
