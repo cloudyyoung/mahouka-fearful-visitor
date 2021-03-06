@@ -8,13 +8,22 @@ $("body").append(`
     <div class="flowers animated fadeIn"></div>
 `);
 
-for (let t = 0; t < 20; t++) {
+for (let t = 1; t <= 100; t++) {
     $(".flowers").append(`<div class="flower ${t}"><p></p></div>`);
 }
 
-let x_center = window.screen.width / 2;
+$(".flowers .flower").each((index, each) => {
+    if (index > 20 - 1) {
+        $(each).hide()
+    } else {
+        $(each).show();
+    }
+});
 
-$(document).on("mousemove", (e) => {
+let x_center = window.screen.width / 2;
+$.mouse = function (e) {
     let x_offset = (e.clientX - x_center) * 0.02;
     $("body").css("--offset", `${x_offset}px`)
-});
+}
+
+$(document).on("mousemove", $.mouse);
