@@ -11,3 +11,10 @@ $("body").append(`
 for (let t = 0; t < 20; t++) {
     $(".flowers").append(`<div class="flower ${t}"><p></p></div>`);
 }
+
+let x_center = window.screen.width / 2;
+
+$(document).on("mousemove", (e) => {
+    let x_offset = (e.clientX - x_center) * 0.02;
+    $("body").css("--offset", `${x_offset}px`)
+});
