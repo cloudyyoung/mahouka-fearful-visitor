@@ -57,7 +57,7 @@ body {
         height: 12%;
         background: url(../img/logo.png) no-repeat center;
         background-size: contain;
-        transform: translateX(calc(var(--offset) * 0.2));
+        transform: translateX(calc(var(--offset) * 0.25));
         transition: var(--transition-fluent);
     }
 }
